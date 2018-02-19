@@ -1,0 +1,107 @@
+.header{
+	background-color: #0C3C55;
+	display: flex;
+	justify-content: space-between;
+}
+
+header figure{
+	display: inline-block;
+}
+
+header nav{
+	display: inline-block;
+}
+
+nav ul a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#boton-login{
+	background-color: red;
+	border: none;
+	font-size: 20px;
+	border-radius: 4px;
+	padding: 8px 15px;
+	color: white;
+}
+
+.portada{
+	background-image: url("../imagenes/portada.jpg");
+	background-position: center;
+	margin: 20px 180px;
+	display: flex;
+	padding: 260px 150px 100px 150px;
+
+}
+
+.portada div header h2{
+	color: black;
+	border-bottom: 2px solid grey;
+	margin: 10px 10px 20px 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+section div{
+	background: rgba(255, 255, 255, 0.7);
+	padding: 15px 15px 0 15px;
+}
+
+div footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-articulos img{
+	display: block;
+}
+
+article h2{
+	display: block;
+	width: 284px;	
+	font-size: 16px;
+	border-bottom: 1px solid grey;
+	text-decoration: none;
+	padding-bottom: 30px;
+}
+
+.contenedor-articulos footer a, p{
+	display: inline-block;
+}
+
+.contenedor-articulos footer a{
+	color: black;
+	text-decoration: none;
+}
+
+section	{
+	margin: 0 150px;
+}
+
+.articulos{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.articulos article{
+	margin: 5px 30px;
+}
+
+.footer-articulos{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+}
+
+footer p, button{
+	margin: 0 10px;
+}
